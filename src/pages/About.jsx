@@ -1,16 +1,11 @@
 import React from 'react'
-import AboutContent from '../components/AboutContent'
-import AboutStory from '../components/AboutStory'
-import AboutInvestors from '../components/AboutInvestors'
-import MissionSection from '../components/home/missionSection'
-import AboutVideoSection from '../components/AboutVideoSection'
-import AboutFeatures from '../components/AboutFeatures'
-import Navbar from '../components/Navbar'
-import CommonCard from '../components/CommonCard'
-import Footer from '../components/Footer'
-import PatternImage from '../components/PatternImage'
-import image from '../../public/oakwood-04949.jpg'
 
+import Navbar from '../components/Navbar'
+import image from '../../public/oakwood-04949.jpg'
+import image1 from '../../public/021.jpg'
+import image2 from '../../public/oakwood-04858.jpg' 
+import image3 from '../../public/partner.png' 
+import image4 from '../../public/PG-01-1.png' 
 
 const About = () => {
   return (
@@ -39,9 +34,80 @@ const About = () => {
             Oakwood is commiEed to quality to service. We create value for customers by providing them with design and ancillary services at no cost. We are here to help you realize your dream!
           </p>
           <div className="bg-[#00abec] py-1 w-[40%] px-5 ml-5 md:ml-0 mt-3 md:mt-0 md:px-0  md:w-[15%]">
-            
           </div>
+          <div className="w-full mt-4 h-full md:flex">
+              <div className="flex-col">
+                <div className="">
+                <img src={image1} alt="" className="w-[100%]" />
+
+                </div>
+                <h1 className="text-[#00abec] px-3 md:px-0 md:py-8  font-extrabold text-4xl">OUR VISION</h1>
+                <p className="text-black md:w-[80%]">
+                  To use modern technology and a dedicated, well-motivated team in providing superior customer experience through creative designs, inspirational ideas &nd tips for kitchen cupbeards, built in cabinets &nd other home &nd office furniture.
+                </p>
+              </div>
+              <div className="flex-col md:py-8 md:px-5">
+              <h1 className="text-[#00abec] px-3 md:px-0  font-extrabold text-4xl">OUR VISION</h1>
+              <p className="text-black md:py-3  md:w-[80%]">
+                  To use modern technology and a dedicated, well-motivated team in providing superior customer experience through creative designs, inspirational ideas &nd tips for kitchen cupbeards, built in cabinets &nd other home &nd office furniture.
+                </p>
+                <div className="">
+                <img src={image2} alt="" className="w-[100%]" />
+
+                </div>
+                
+              </div>
+            </div>
+            <div className="bg-[#00abec]  py-1 w-[100%] px-5 ml-5 md:ml-0 mt-3 md:mt-0 md:px-0  md:w-[100%]"></div>
+
+            <div className="w-full flex justify-center md:mt-5 items-center h-full">
+              <div className="w-[30%] md:py-10">
+                <h1 className="bg-gradient-to-r text-center rounded-lg md:text-2xl from-[#283980] md:p-2 font-bold  text-white to-[#02a7e9] ">
+                  <span className="font-thin md:text-2xl">OUR</span> PARTNERS
+                </h1>
+              </div>
+
+              
+            </div>
+
+            <div className="flex justify-center items-center">
+                <img src={image3} alt="" className="w-[35%]" />
+                <img src={image4} alt="" className="w-[35%]" />
+              
+              </div>
+
          </div>
+        </div>
+
+
+        <div className="bg-[#bcd22f] md:flex py-3 px-10 w-full h-full">
+         <div className="w-[50%]">
+         <h1 className="font-bold md:text-4xl text-white">
+            READY TO BEGIN YOUR
+          </h1>
+          <h1 className="font-bold md:text-4xl text-white">
+            JOURNEY WITH US?
+          </h1>
+         </div>
+         <div className="md:flex md:gap-3 justify-center items-center ">
+          <div className="text-white text-2xl font-thin ">LET`S WORK TOGETHER </div>
+          <input type="email" name="" className='rounded-lg border text-white py-2 w-[42%] border-white px-3 ' placeholder='Enter email address here' id="" />
+
+         </div>
+        </div>
+
+        <div className="bg-[#02a7e9] flex justify-between">
+          <div className="px-10 py-4">
+          <h1 className="text-white">
+            Oakwood:All Rights Reserved 
+          </h1>
+          </div>
+          <div className="px-10 py-4">
+          <h1 className="text-white">
+          Designed By Hyve Agency
+          </h1>
+          </div>
+          
         </div>
     </div>
   )

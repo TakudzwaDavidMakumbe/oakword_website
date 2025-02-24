@@ -1,21 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import HeroSection from '../components/HeroSection'
-import grp1 from '../../public/Group1.png'
+
+
 // import bg from '../../public/Vector1.png'
 import bg from '../../public/bg2.jpg'
 import { GiGlobe } from 'react-icons/gi'
 import { BsGlobeEuropeAfrica } from 'react-icons/bs'
-import { pillars} from '../data/data'
-import MissionSection from '../components/home/missionSection'
+
 import { Link } from 'react-router-dom'
-import Values from '../components/home/Values'
-import Services from '../components/home/Services'
-import UnnamedSection from '../components/home/UnnamedSection'
-import HumanIntelligence from '../components/home/HumanIntelligence'
-import Footer from '../components/Footer'
-import CommonCard from '../components/CommonCard'
-import Pillars from '../components/home/Pillars'
+
 import  image1 from "../../public/1.png"
 import  image2 from "../../public/2.png"
 import  image3 from "../../public/3.png"
