@@ -54,11 +54,11 @@ const Services = () => {
        </div>
       </div>
 
-      <div className="md:flex mb-3 md:mb-0 mt-48 md:mt-0">
+      <div className="md:flex mb-3 md:mb-0 mt-52 md:mt-0">
        <div className="md:w-1/2">
        <img src={image2} alt="" className="w-[100%]" />
        </div>
-       <div className="md:px-3 md:flex-col md:py-10 md:w-1/2">
+       <div className="md:px-3 pt-4 md:pt-0 md:flex-col md:py-16 md:w-1/2">
         <h1 className="text-black font-bold md:text-3xl ">QUARTZ</h1>
         <p className="text-black  tracking-wide md:mt-5 md:text-lg">Quartz is & great option for those households that spend a lot of time in the kitchen preparing meals because it resits most of the normal wear and tear that comes along with it. It is nearly indestructible when it comes to physical forces, but regular exposure to extreme heat may lead to discoloration over time. To prevent this from happening, make sure you lay down a potholder or some other kind of barrier between the counter and hot dishes.</p>
        </div>
@@ -75,7 +75,7 @@ const Services = () => {
        </div>
       </div>
 
-      <div className="md:flex mt-70 md:mt-0">
+      <div className="md:flex mt-78 md:mt-0">
       <div className="md:w-1/2">
        <img src={image5} alt="" className="w-[100%] md:mt-5" />
        </div>
@@ -98,7 +98,7 @@ const Services = () => {
       </div>
       
 
-      <div className=" md:pb-10 mt-25 mb-3 md:mb-0 md:mt-0  flex-col text-center">
+      <div className=" md:pb-10 mt-35 mb-3 md:mb-0 md:mt-0  flex-col text-center">
       <h1 className="text-[#00abec]  font-bold md:text-4xl">
         READY TO BEGIN YOUR
       </h1>
