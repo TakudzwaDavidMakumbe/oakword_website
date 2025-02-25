@@ -45,7 +45,7 @@ const Services = () => {
 
       <div className=" md:mb-7  md:flex">
       
-       <div className="md:px-3 md:w-[98%] md:flex-col md:relative md:items-center md:justify-center absolute mt-[15rem] md:mt-0 md:py-20">
+       <div className="md:px-3 md:w-[98%] md:flex-col md:relative md:items-center md:justify-center absolute mt-[13rem] md:mt-0 md:py-20">
         <h1 className="text-black bold md:text-3xl md:flex  ">HIGH GLOSS MDF</h1>
         <p className="text-black  regular  md:mt-5 md:text-2xl">This is a premium finish on chipboard or supawood, High Gloss MDF Board is suitable for use on fine quality residentail &nd contract furniture, casework and also for architectural application on inside wall, interior doors and sliding door systems.</p>
        </div>
@@ -54,7 +54,7 @@ const Services = () => {
        </div>
       </div>
 
-      <div className="md:flex mb-3 md:mb-0 mt-52 md:mt-0">
+      <div className="md:flex mb-3 md:mb-0 mt-48 md:mt-0">
        <div className="md:w-1/2">
        <img src={image2} alt="" className="w-[100%]" />
        </div>
@@ -75,19 +75,19 @@ const Services = () => {
        </div>
       </div>
 
-      <div className="md:flex md:mb-8 mt-78 md:mt-0">
+      <div className="md:flex md:mb-8 mt-48 md:mt-0">
       <div className="md:w-1/2">
        <img src={image5} alt="" className="w-[100%] md:mt-5" />
        </div>
        
-       <div className="md:px-3 md:flex-col mt-3 md:mt-0   md:py-28 md:w-1/2">
+       <div className="md:px-3 md:flex-col mt-3 md:mt-0 w-full    md:py-28 md:w-1/2">
         <h1 className="text-black bold md:text-3xl ">CUTTING AND EDGING</h1>
-        <p className="text-black  regular md:mt-5 md:text-2xl">Cutting-edge precision, edging perfection.Trust our experienced team to deliver high-quality board cutting and edging services that exceed your expectations.</p>
+        <p className="text-black  regular md:mt-5   md:text-2xl">Cutting-edge precision, edging perfection.Trust our experienced team to deliver high-quality board cutting and edging services that exceed your expectations.</p>
        </div>
       </div>
 
       <div className="  md:flex">
-       <div className="md:px-3 md:w-[72%] md:flex-col md:relative absolute mt-[13rem] md:mt-5 md:py-20">
+       <div className="md:px-3 md:w-[72%]  md:flex-col md:relative absolute mt-[12rem] md:mt-5 md:py-20">
         <h1 className="text-black font-bold md:text-3xl flex  ">CABINET HARDWARE</h1>
         <p className="text-black  regular md:mt-5 md:text-2xl">Backplates, Cabinet Bumpers, Cabinet Hardware Accessories Cabinet Hinges, Cabinet Knobs, Cabinet Latches, Drawer Hardware.</p>
        </div>
@@ -98,7 +98,7 @@ const Services = () => {
       </div>
       
 
-      <div className=" md:pb-10 mt-35 md:mt-4 mb-3 md:mb-0   flex-col text-center">
+      <div className=" md:pb-10 mt-28 md:mt-4 mb-3 md:mb-0   flex-col text-center">
       <h1 className="text-[#00abec]  bold md:text-4xl">
         READY TO BEGIN YOUR
       </h1>
