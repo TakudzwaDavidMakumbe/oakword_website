@@ -12,14 +12,14 @@ const Contact = () => {
           <Navbar />
       
           <section className="w-full md:h-screen" >
-            <h1 className="md:text-7xl text-4xl flex justify-center pt-[8rem] md:mt-32 text-white md:font-bold">GET IN</h1>
-            <h1 className="md:text-7xl flex text-4xl justify-center  text-white md:font-bold">TOUCH WITH</h1>
-            <h1 className="md:text-7xl flex text-4xl justify-center  text-white md:font-bold">OUR TEAM</h1>
+            <h1 className="md:text-7xl text-4xl flex justify-center pt-[8rem] bold md:mt-32 text-white md:font-bold">GET IN</h1>
+            <h1 className="md:text-7xl flex text-4xl justify-center bold  text-white md:font-bold">TOUCH WITH</h1>
+            <h1 className="md:text-7xl flex text-4xl justify-center bold  text-white md:font-bold">OUR TEAM</h1>
             <section className="md:w-[100%] pt-[5rem] pb-10  md:pt-[14rem] px-2 md:px-[10rem] h-full">
             <div className="flex-1 md:flex md:py-8 md:rounded-3xl px-2 md:px-0  bg-[#f28020] ">
              <div className="flex-col md:px-4 md:py-5 md:w-[65%]">
-             <h1 className="font-extrabold text-xl text-white md:text-3xl">LEAVE US A MESSAGE</h1>
-             <p className="text-white text-sm py-2 md:py-0">Our range of services integrate design, research and innovation to provide seamless innovative cut and edge solutions. </p>
+             <h1 className="bold text-xl px-20 md:px-0 text-white md:text-3xl">LEAVE US A MESSAGE</h1>
+             <p className="text-white regular text-sm py-2 md:py-0">Our range of services integrate design, research and innovation to provide seamless innovative cut and edge solutions. </p>
              </div>
              <div className="md:w-fit h-fit p-2 w-full items-center md:p-10">
               <input type="email" placeholder='Enter email address here' className='text-white border w-full rounded-lg px-3 py-2' name="" id="" />
@@ -53,32 +53,32 @@ const Contact = () => {
           <div className="w-full flex justify-between mb-2 mt-[4rem] md:px-16 h-full md:flex">
             <div className="md:flex-col md:mr-16 w-[50%]">
               <img src={Logo} alt="" className="md:w-[40%] w-[60%]" />
-              <p className="text-black -tracking-wider md:tracking-normal w-[80%] md:text-xl text-xs md:w-[60%]">A Specialist Supplier and Distributor Of Board Products !!</p>
+              <p className="text-black regular md:tracking-normal w-[80%] md:text-xl text-xs md:w-[60%]">A Specialist Supplier and Distributor Of Board Products !!</p>
             </div>
             <div className="md:flex-col w-[50%]">
 
             
-            <div className="font-bold">
-            <h1 className="font-bold  md:text-2xl text-xs text-[#2e388d]">
+            <div className="bold">
+            <h1 className="bold  md:text-2xl text-xs text-[#2e388d]">
             READY TO BEGIN YOUR JOURNEY WITH US? LET`S WORK TOGETHER 
           </h1>
             </div>
-            <div className="md:font-bold">
+            <div className="bold">
             <h1 className="font-extrabold md:text-2xl  text-xs  text-[#2e388d] ">Contact Us</h1>
-            <p className="text-black text-xs md:text-sm py-1">
+            <p className="text-black text-xs regular md:text-sm py-1">
               NRZ Complex, Seke Road, Harare Zimbabwe
             </p>
-            <p className="text-black text-xs md:text-sm py-1">
+            <p className="text-black regular text-xs md:text-sm py-1">
             +263772734257|+263775572191
             </p>
-            <p className="text-black text-xs md:text-sm">
+            <p className="text-black regular text-xs md:text-sm">
             (0242)2332573/4
             </p>
             </div>
             </div>
            </div>
 
-           <div className="bg-[#02a7e9] text-xs md:text-sm flex justify-between">
+           <div className="bg-[#02a7e9] regular text-xs md:text-sm flex justify-between">
           <div className="md:px-10 px-2 py-4">
           <h1 className="text-white">
             Oakwood:All Rights Reserved 
