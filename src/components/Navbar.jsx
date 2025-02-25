@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className='relative flex justify-between border border-gray-300 items-center py-2 top-8 z-[100] bg-white m-5 text-black rounded-lg font-mono px-6 md:px-12 '>
       {/* Logo */}
       <div className='flex items-center  w-[230px]'>
-        <img src={logo} alt='logo' className='w-30 h-16' />
+        <img src={logo} alt='logo' className='md:w-30  md:h-16' />
       </div>
 
       {/* Desktop Menu */}
