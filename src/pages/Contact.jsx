@@ -50,7 +50,7 @@ const Contact = () => {
             
           </div>
 
-          <div className="w-full flex justify-between mb-2 mt-[4rem] md:px-16 h-full md:flex">
+          <div className="w-full px-1  flex justify-between mb-2 mt-[4rem] md:px-16 h-full md:flex">
             <div className="md:flex-col md:mr-16 w-[50%]">
               <img src={Logo} alt="" className="md:w-[40%] w-[60%]" />
               <p className="text-black regular md:tracking-normal w-[80%] md:text-lg text-xs md:w-[60%]">A Specialist Supplier and Distributor Of Board Products !!</p>
@@ -58,12 +58,12 @@ const Contact = () => {
             <div className="md:flex-col w-[50%]">
 
             
-            <div className="">
+            <div className="px-1 md:px-0">
             <h1 className="bold  md:text-2xl text-xs text-[#2e388d]">
             READY TO BEGIN YOUR JOURNEY WITH US? LET`S WORK TOGETHER 
           </h1>
             </div>
-            <div className="bold">
+            <div className="bold px-1 md:px-0">
             <h1 className="font-extrabold md:text-2xl  text-xs  text-[#2e388d] ">Contact Us</h1>
             <p className="text-black text-xs regular md:text-lg py-1">
               NRZ Complex, Seke Road, Harare Zimbabwe
