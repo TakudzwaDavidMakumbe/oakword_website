@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 
 
 // import bg from '../../public/Vector1.png'
-import bg from '../../public/bg2.jpg'
+import bg from '../../public/bg.png'
 import { GiGlobe } from 'react-icons/gi'
 import { BsGlobeEuropeAfrica } from 'react-icons/bs'
 
@@ -13,7 +13,7 @@ import  image1 from "../../public/1.png"
 import  image2 from "../../public/2.png"
 import  image3 from "../../public/3.png"
 import  image4 from "../../public/4.png"
-import  back from "../../public/back.jpg"
+import  back from "../../public/oakwood-04615.jpg"
 import  image5 from "../../public/5.png"
 import  image6 from "../../public/6.png"
 import  image7 from "../../public/7.png" 
@@ -32,10 +32,10 @@ const Home = () => {
           <section className="md:w-[100%] pt-[2rem] py-4 md:py-0 md:pt-[14rem] px-2 md:px-[10rem] h-full">
             <div className="flex-1 md:flex rounded-lg md:py-8 md:rounded-3xl px-2 md:px-0 bg-[#f28020]">
               <div className="flex-col md:px-4 md:w-[65%]">
-                <h1 className="font-extrabold text-xl px-28 md:px-0 bold text-white md:text-3xl">NEED A QUOTE?</h1>
+                <h1 className="font-extrabold flex md:justify-normal justify-center text-xl pt-3 md:pt-0 md:px-0 bold text-white md:text-3xl">NEED A QUOTE?</h1>
                 <p className="text-white text-lg px-10 md:px-0 regular py-2 md:py-0">Our range of services integrate design, research and innovation to provide seamless innovative cut and edge solutions</p>
               </div>
-              <div className="md:w-fit h-fit px-2 py-4 md:py-0 w-full items-center md:p-10">
+              <div className="md:w-fit h-fit px-2 py-4 md:py-6 w-full items-center md:p-10">
                 <input type="email" placeholder='Enter email address here' className='text-white border w-full rounded-lg px-3 py-2' name="" id="" />
               </div>
             </div>
@@ -44,8 +44,8 @@ const Home = () => {
       </div>
 
       <section className="w-full flex md:py-28 h-full">
-        <div className="flex-col pt-3 md:pt-0 w-full md:px-[18rem] justify-center items-center h-full">
-          <h1 className="font-extrabold md:text-4xl text-3xl text-center bold text-[#2e388d]">WHY US?</h1>
+        <div className="flex-col pt-3   md:pt-0 w-full md:px-[18rem] justify-center items-center h-full">
+          <h1 className="font-extrabold md:text-4xl text-3xl flex  justify-center  text-center bold text-[#2e388d]">WHY US?</h1>
           <p className="text-black px-10 md:px-0 regular text-lg md:text-2xl">
             We pride ourselves on the close relationships we develop with our clients. It`s through nurturing relationships that we learn how to truly understand their needs and how best to serve them.
           </p>
@@ -96,8 +96,8 @@ const Home = () => {
         <div className="md:flex justify-center px-5 md:px-10 md:py-16">
           <div className="md:px-5 md:w-[100%] mb-4 md:mb-0 justify-center items-center">
             <div className="bg-[#12b2c9] md:py-10 text-white rounded-lg">
-              <div className="flex md:mt-20   pt-3 md:pt-0 md:pb-0 md:ml-32 ml-28 px-[1rem] md:px-0 md:absolute md:py-22">
-                <img src={image5} alt="" className="md:w-[20%]  w-[40%] border-gray-400 border rounded-full" />
+              <div className="flex md:mt-22   pt-3 md:pt-0 md:pb-0 md:ml-32 ml-28 px-[1rem] md:px-0 md:absolute md:py-22">
+                <img src={image5} alt="" className="md:w-[21%]  w-[40%] border-gray-400 border rounded-full" />
               </div>
               <p className="md:text-sm px-3 md:px-10 regular pt-3 pb-5 md:pb-0 md:pt-0">
                 Oakwood exceeded our expectations! Their attention to detail, professionalism and dedication to delivering exceptional results made our kitchen renovation a dream came true
@@ -108,7 +108,7 @@ const Home = () => {
           <div className="md:px-5 mb-4 md:mb-0 md:w-[100%] justify-center items-center">
             <div className="bg-[#12b2c9] md:py-[3.2rem] text-white rounded-lg">
               <div className="flex md:mt-20   pt-3 md:pt-0 md:pb-0 md:ml-32 ml-28 px-[1rem] md:px-0 md:absolute md:py-22">
-                <img src={image6} alt="" className="md:w-[20%] w-[40%] border-gray-400 border rounded-full" />
+                <img src={image6} alt="" className="md:w-[22%] w-[40%] border-gray-400 border rounded-full" />
               </div>
               <p className="md:text-sm px-3 md:px-10 regular pt-3 pb-5 md:pb-0 md:pt-0">
                 We were blown away by the quality of Oakwood`s work! Their expertise in board cutting, kitchen design and cabinet making is unparalleled.
@@ -119,7 +119,7 @@ const Home = () => {
           <div className="md:px-5 md:w-[100%] mb-4 md:mb-0 justify-center items-center">
             <div className="bg-[#12b2c9] md:py-[3.2rem] text-white rounded-lg">
               <div className="flex md:mt-20   pt-3 md:pt-0 md:pb-0 md:ml-32 ml-28 px-[1rem] md:px-0 md:absolute md:py-22">
-                <img src={image7} alt="" className="md:w-[30%] w-[40%] border-gray-400 border rounded-full" />
+                <img src={image7} alt="" className="md:w-[33%] w-[40%] border-gray-400 border rounded-full" />
               </div>
               <p className="md:text-sm px-3 md:px-10 pt-3 pb-5 regular md:pb-0 md:pt-0">
                 Oakwood made our renovation process seamless and stress-free. Their team was responsive, knowledgeable and passionate about delivering outstanding results.
@@ -129,20 +129,20 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="w-full gap-12 md:gap-0 flex px-5 mb-2 mt-[4rem] md:px-16 h-full md:flex">
+      <div className="w-full gap-12  flex justify-between px-5 mb-2 mt-[4rem] md:px-16 h-full md:flex">
         <div className="md:flex md:mr-16 w-[100%] md:w-[50%]">
           <img src={Logo} alt="" className="md:w-[50%]" />
         </div>
         <div className="md:flex-col">
           <h1 className="font-extrabold md:text-2xl bold text-[#2e388d]">Contact Us</h1>
-          <div className="md:font-bold">
-            <p className="text-black regular text-sm md:text-xl py-1">
+          <div className="">
+            <p className="text-black regular text-sm md:text-lg py-1">
               NRZ Complex, Seke Road, Harare Zimbabwe
             </p>
-            <p className="text-black md:text-xl regular text-sm py-1">
-              +263772734257|+263775572191
+            <p className="text-black md:text-lg regular text-sm py-1">
+              +263 78 555 9787  |  +263 78 555 9796
             </p>
-            <p className="text-black md:text-xl regular text-sm">
+            <p className="text-black md:text-lg regular text-sm">
               (0242)2332573/4
             </p>
           </div>
@@ -151,7 +151,7 @@ const Home = () => {
 
       <div className="w-full h-full px-5 mb-0 py-6 regular flex justify-between items-center bg-[#f28020]">
         <div className="text-white">
-          <h1 className="text-xs md:text-xl">Oakwood; All Rights Reserved</h1>
+          <h1 className="text-xs md:text-lg">Oakwood; All Rights Reserved</h1>
         </div>
         <div className="text-xs md:text-xl text-white">
           Designed By Hyve Agency

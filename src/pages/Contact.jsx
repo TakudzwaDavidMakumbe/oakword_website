@@ -30,15 +30,15 @@ const Contact = () => {
 
          </div>
 
-         <div className="md:w-full md:px-10 md:mt-32 md:flex-col md:h-full"></div>
+         <div className="md:w-full md:px-10 md:mt- md:flex-col md:h-full"></div>
             <div className="md:w-full flex-1 md:flex md:justify-center md:pb-5 md:gap-10"></div>
          <div className="md:w-full md:px-10 md:mt-32 px-10 py-5 md:py-0    md:flex-col md:h-full">
             <div className=" md:w-full   md:flex md:justify-center md:pb-5 md:gap-10">
-            <div className="py-3 md:py-0">
-            <input type="email" name="" className='text-[#02a7e9] py-3 md:w-[50%] w-full rounded-lg border px-5 md:px-10 border-black' placeholder='Enter your name here...' id="" />
+            <div className="py-3 md:w-full md:py-0">
+            <input type="email" name="" className='text-[#02a7e9] py-3 md:w-[100%] w-full rounded-lg border px-5 md:px-10 border-black' placeholder='Enter your name here...' id="" />
             </div>
-            <div className=" py-3 md:py-0">
-            <input type="email" name="" className='text-[#02a7e9] py-3 md:w-[50%] w-full rounded-lg border px-5 md:px-10 border-black' placeholder='Enter your name here...' id="" />
+            <div className="md:w-full py-3 md:py-0">
+            <input type="email" name="" className='text-[#02a7e9] py-3 md:w-[100%] w-full rounded-lg border px-5 md:px-10 border-black' placeholder='Enter your name here...' id="" />
             </div>
             </div>
             <div className="w-full py-3 md:py-0">
@@ -53,32 +53,32 @@ const Contact = () => {
           <div className="w-full flex justify-between mb-2 mt-[4rem] md:px-16 h-full md:flex">
             <div className="md:flex-col md:mr-16 w-[50%]">
               <img src={Logo} alt="" className="md:w-[40%] w-[60%]" />
-              <p className="text-black regular md:tracking-normal w-[80%] md:text-xl text-xs md:w-[60%]">A Specialist Supplier and Distributor Of Board Products !!</p>
+              <p className="text-black regular md:tracking-normal w-[80%] md:text-lg text-xs md:w-[60%]">A Specialist Supplier and Distributor Of Board Products !!</p>
             </div>
             <div className="md:flex-col w-[50%]">
 
             
-            <div className="bold">
+            <div className="">
             <h1 className="bold  md:text-2xl text-xs text-[#2e388d]">
             READY TO BEGIN YOUR JOURNEY WITH US? LET`S WORK TOGETHER 
           </h1>
             </div>
             <div className="bold">
             <h1 className="font-extrabold md:text-2xl  text-xs  text-[#2e388d] ">Contact Us</h1>
-            <p className="text-black text-xs regular md:text-sm py-1">
+            <p className="text-black text-xs regular md:text-lg py-1">
               NRZ Complex, Seke Road, Harare Zimbabwe
             </p>
-            <p className="text-black regular text-xs md:text-sm py-1">
-            +263772734257|+263775572191
+            <p className="text-black regular text-xs md:text-lg py-1">
+            +263 78 555 9787 | +263 78 555 9796
             </p>
-            <p className="text-black regular text-xs md:text-sm">
+            <p className="text-black regular text-xs md:text-lg">
             (0242)2332573/4
             </p>
             </div>
             </div>
            </div>
 
-           <div className="bg-[#02a7e9] regular text-xs md:text-sm flex justify-between">
+           <div className="bg-[#02a7e9] regular text-xs md:text-lg flex justify-between">
           <div className="md:px-10 px-2 py-4">
           <h1 className="text-white">
             Oakwood:All Rights Reserved 
