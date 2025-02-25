@@ -90,7 +90,7 @@ const About = () => {
           </h1>
          </div>
          <div className="md:flex md:gap-3 justify-center items-center ">
-          <div className="text-white text-2xl font-thin px-8 regular  md:px-0 pb-3 md:pb-0  "><h1>LET`S WORK TOGETHER</h1> </div>
+          <div className="text-white text-2xl font-thin px-5 regular  md:px-0 pb-3 md:pb-0  "><h1>LET`S WORK TOGETHER</h1> </div>
           <input type="email" name="" className='rounded-lg border text-white py-2 md:w-[42%] w-[100%] border-white px-3 ' placeholder='Enter email address here' id="" />
 
          </div>
