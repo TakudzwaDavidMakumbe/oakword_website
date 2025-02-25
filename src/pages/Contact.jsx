@@ -35,22 +35,22 @@ const Contact = () => {
          <div className="md:w-full md:px-10 md:mt-32 px-10 py-5 md:py-0    md:flex-col md:h-full">
             <div className=" md:w-full   md:flex md:justify-center md:pb-5 md:gap-10">
             <div className="py-3 md:w-full md:py-0">
-            <input type="email" name="" className='text-[#02a7e9] py-3 md:w-[100%] w-full rounded-lg border px-5 md:px-10 border-black' placeholder='Enter your name here...' id="" />
+            <input type="text" name="" className='text-[#02a7e9] py-3 md:w-[100%] w-full rounded-lg border px-5 md:px-10 border-black' placeholder='Enter your name here...' id="" />
             </div>
             <div className="md:w-full py-3 md:py-0">
-            <input type="email" name="" className='text-[#02a7e9] py-3 md:w-[100%] w-full rounded-lg border px-5 md:px-10 border-black' placeholder='Enter your name here...' id="" />
+            <input type="text" name="" className='text-[#02a7e9] py-3 md:w-[100%] w-full rounded-lg border px-5 md:px-10 border-black' placeholder='Enter your Surname here...' id="" />
             </div>
             </div>
             <div className="w-full py-3 md:py-0">
-            <input type="email" name="" className='text-[#02a7e9] py-3 md:w-[100%] w-full rounded-lg md:px-10 px-5 border-black border' placeholder='Enter your name here...' id="" />
+            <input type="email" name="" className='text-[#02a7e9] py-3 md:w-[100%] w-full rounded-lg md:px-10 px-5 border-black border' placeholder='Enter your email here...' id="" />
             </div>
             <div className="w-full py-3  md:py-5">
-            <input type="email" name="" className='text-[#02a7e9] md:py-28 w-full flex justify-center items-center md:w-[100%] rounded-lg py-3 px-5 md:px-10 border-black border' placeholder='Enter your name here...' id="" />
+            <input type="text" name="" className='text-[#02a7e9] md:py-28 w-full flex justify-center items-center md:w-[100%] rounded-lg py-3 px-5 md:px-10 border-black border' placeholder='Enter your name message...' id="" />
             </div>
             
           </div>
 
-          <div className="w-full px-1  flex justify-between mb-2 mt-[4rem] md:px-16 h-full md:flex">
+          <div className="w-full px-3  flex justify-between mb-2 mt-[4rem] md:px-16 h-full md:flex">
             <div className="md:flex-col md:mr-16 w-[50%]">
               <img src={Logo} alt="" className="md:w-[40%] w-[60%]" />
               <p className="text-black regular md:tracking-normal w-[80%] md:text-lg text-xs md:w-[60%]">A Specialist Supplier and Distributor Of Board Products !!</p>
@@ -58,12 +58,12 @@ const Contact = () => {
             <div className="md:flex-col w-[50%]">
 
             
-            <div className="px-1 md:px-0">
+            <div className="px-3 md:px-0">
             <h1 className="bold  md:text-2xl text-xs text-[#2e388d]">
             READY TO BEGIN YOUR JOURNEY WITH US? LET`S WORK TOGETHER 
           </h1>
             </div>
-            <div className="bold px-1 md:px-0">
+            <div className="bold px-3 md:px-0">
             <h1 className="font-extrabold md:text-2xl  text-xs  text-[#2e388d] ">Contact Us</h1>
             <p className="text-black text-xs regular md:text-lg py-1">
               NRZ Complex, Seke Road, Harare Zimbabwe
