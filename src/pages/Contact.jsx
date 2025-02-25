@@ -38,14 +38,14 @@ const Contact = () => {
             <input type="text" name="" className='text-[#02a7e9] py-3 md:w-[100%] w-full rounded-lg border px-5 md:px-10 border-black' placeholder='Enter your name here...' id="" />
             </div>
             <div className="md:w-full py-3 md:py-0">
-            <input type="text" name="" className='text-[#02a7e9] py-3 md:w-[100%] w-full rounded-lg border px-5 md:px-10 border-black' placeholder='Enter your Surname here...' id="" />
+            <input type="text" name="" className='text-[#02a7e9] py-3 md:w-[100%] w-full rounded-lg border px-5 md:px-10 border-black' placeholder='Enter your phonenumber here...' id="" />
             </div>
             </div>
             <div className="w-full py-3 md:py-0">
             <input type="email" name="" className='text-[#02a7e9] py-3 md:w-[100%] w-full rounded-lg md:px-10 px-5 border-black border' placeholder='Enter your email here...' id="" />
             </div>
             <div className="w-full py-3  md:py-5">
-            <input type="text" name="" className='text-[#02a7e9] md:py-28 w-full flex justify-center items-center md:w-[100%] rounded-lg py-3 px-5 md:px-10 border-black border' placeholder='Enter your name message...' id="" />
+            <input type="text" name="" className='text-[#02a7e9] md:py-28 w-full flex justify-center items-center md:w-[100%] rounded-lg py-3 px-5 md:px-10 border-black border' placeholder='Enter your message...' id="" />
             </div>
             
           </div>
