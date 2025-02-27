@@ -8,6 +8,12 @@ import image3 from '../../public/partner.png'
 import image4 from '../../public/PG-01-1.png' 
 
 const About = () => {
+  const sendMessage = () => {
+    const phoneNumber = "0785559787"; // Replace with actual number (with country code, no +)
+    const message = encodeURIComponent("Hello,i just visited your website and im intrested in your services!");
+    const url = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(url, "_blank");
+  };
   return (
     <div className="w-screen h-fit">
       <div className="md:w-screen md:h-full" style={{backgroundImage: `url(${image})`, backgroundSize: 'cover'}}>
@@ -17,6 +23,9 @@ const About = () => {
         <h1 className="md:text-6xl text-4xl flex justify-center pt-[8rem] bold text-white font-bold">GOING</h1>
         <h1 className="md:text-6xl flex text-4xl justify-center bold text-white font-bold">FURTHER IN STYLE</h1>
         <h1 className="md:text-lg font-bold text-center px-5 md:px-0  text-white regular">A Specialist Supplier and Distributor Of Board Products !!</h1>
+        <div className="flex  justify-center  md:mt-4 bold items-center">
+         <button onClick={sendMessage} className="md:text-3xl text-3xl p-2 hover:bg-black hover:text-white bg-[#fff] md:px-3 md:py-2 rounded-lg  text-[#f28020]">Send Message</button>
+         </div>
         </div>
       </div>
       <div className="w-full md:py-5 md:px-10 h-full">

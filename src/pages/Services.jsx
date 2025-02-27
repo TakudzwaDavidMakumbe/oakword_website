@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import bg from '../../public/edited-06915.jpg' 
-import image from '../../public/oakwood-04866.jpg'  
+import image from '../../public/oakwood-048661.png'  
 import image1 from '../../public/431.png'  
 import image2 from '../../public/23.png'  
 import image3 from '../../public/12.png' 
@@ -10,14 +10,23 @@ import image5 from '../../public/oakwood-04731.jpg'
 import image6 from '../../public/1699691557858.png' 
 
 const Services = () => {
+  const sendMessage = () => {
+    const phoneNumber = "0785559787"; // Replace with actual number (with country code, no +)
+    const message = encodeURIComponent("Hello,i just visited your website and im intrested in your services!");
+    const url = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(url, "_blank");
+  };
   return (
     <div className='w-screen h-screen '>
        <div className="md:w-screen md:h-full" style={{backgroundImage: `url(${bg})`, backgroundSize: 'cover'}}>
     <Navbar />
 
     <section className="w-full md:h-screen" >
-      <h1 className="md:text-7xl text-4xl flex justify-center md:mt-[14rem] bold pt-[8rem] text-white font-bold">GOING</h1>
+      <h1 className="md:text-7xl text-4xl flex justify-center md:mt-[12rem] bold pt-[8rem] text-white font-bold">GOING</h1>
       <h1 className="md:text-7xl flex text-4xl justify-center bold  text-white font-bold">FURTHER IN STYLE</h1>
+      <div className="flex  justify-center  md:mt-4 bold items-center">
+         <button onClick={sendMessage} className="md:text-3xl text-3xl p-2 hover:bg-black hover:text-white bg-[#fff] md:px-3 md:py-2 rounded-lg  text-[#f28020]">Send Message</button>
+         </div>
       <section className="md:w-[100%] pt-[2rem] pb-5 mb:pb-0   px-2 md:px-[10rem] h-full">
       <div className=" flex-1  md:flex md:py-8 md:rounded-3xl px-2 md:px-0   bg-gradient-to-r  from-[#283980] md:p-2 to-[#02a7e9] ">
        <div className="flex-col md:px-10 md:w-[100%]  ">
@@ -39,7 +48,7 @@ const Services = () => {
        </div>
        <div className="md:px-3 md:pt-4 md:flex-col md:items-center md:justify-center md:py-10 md:w-1/2 ">
         <h1 className="text-black  md:text-3xl bold ">MELAMINE BOARDS</h1>
-        <p className="text-black  regular md:mt-5 md:text-2xl">Melamine is a organic chemical compound that can be mixed with form & idehyde to produce & thermosetting plastic. The product is called melamine resin and is used in the timber industry as a high pressure decorative laminate. It is extremely durable &nd has certain fire resistant properties. These properties make it a suitable choice for products such as laminate flooring, Formica, dry erase boards and dinnerware.</p>
+        <p className="text-black  regular md:mt-5 md:text-2xl">Melamine is made from bison board which is covored on both sides with decorative paper that is infused with resin using heat and pressure. Our top quality melamine is the perfect solution foor hygeine sensitive and high areas.</p>
        </div>
       </div>
 
@@ -47,7 +56,7 @@ const Services = () => {
       
        <div className="md:px-3 md:w-[98%] md:flex-col md:relative md:items-center md:justify-center absolute mt-[13rem] md:mt-0 md:py-20">
         <h1 className="text-black bold md:text-3xl md:flex  ">HIGH GLOSS MDF</h1>
-        <p className="text-black  regular  md:mt-5 md:text-2xl">This is a premium finish on chipboard or supawood, High Gloss MDF Board is suitable for use on fine quality residentail &nd contract furniture, casework and also for architectural application on inside wall, interior doors and sliding door systems.</p>
+        <p className="text-black  regular  md:mt-5 md:text-2xl">Highgloss boards present either a chipboard or superwood core that is cured using utraviolet light to produce a durable premium glossy finish.It`s suitable for use on fine quality residential and corporate furniture.</p>
        </div>
        <div className="w-[100%]">
        <img src={image1} alt="" className="w-[100%]" />

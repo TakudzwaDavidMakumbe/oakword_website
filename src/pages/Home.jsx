@@ -20,6 +20,14 @@ import  image7 from "../../public/7.png"
 import  Logo from "../../public/logo_2.png" 
 
 const Home = () => {
+
+  const sendMessage = () => {
+    const phoneNumber = "0785559787"; // Replace with actual number (with country code, no +)
+    const message = encodeURIComponent("Hello,i just visited your website and im intrested in your services!");
+    const url = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(url, "_blank");
+  };
+
   return (
     <div className='w-full h-full'>
       <div className="md:w-screen md:h-full" style={{backgroundImage: `url(${bg})`, backgroundSize: 'cover'}}>
@@ -29,6 +37,9 @@ const Home = () => {
           <h1 className="md:text-7xl text-4xl bold flex justify-center pt-[8rem] text-white font-bold">GOING</h1>
           <h1 className="md:text-7xl flex text-4xl justify-center bold text-white font-bold">FURTHER IN STYLE</h1>
           <h1 className="md:text-7xl flex justify-center font-thin text-4xl text-white"> OAKWOOD</h1>
+         <div className="flex  justify-center  md:mt-4 bold items-center">
+         <button onClick={sendMessage} className="md:text-3xl text-3xl p-2 hover:bg-black hover:text-white bg-[#fff] md:px-3 md:py-2 rounded-lg  text-[#f28020]">Send Message</button>
+         </div>
           <section className="md:w-[100%] pt-[2rem] py-4 md:py-0 md:pt-[14rem] px-2 md:px-[10rem] h-full">
             <div className="flex-1 md:flex rounded-lg md:py-8 md:rounded-3xl px-2 md:px-0 bg-[#f28020]">
               <div className="flex-col md:px-4 md:w-[65%]">
